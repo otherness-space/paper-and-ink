@@ -1,4 +1,4 @@
-<?php
+	<?php
 /**
  * The header for our theme.
  *
@@ -23,7 +23,7 @@
 <div id="page" class="hfeed site" style="min-height: 100%; height: 100%">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'materialwp' ); ?></a>
 	
-	<img src="http://faizmalkani.com/images/material_cover.png" style="width: 100%; height: 50%; object-fit: cover !important; position: absolute">
+	<img src="<?php header_image(); ?>" style="width: 100%; height: 50%; object-fit: cover !important; position: absolute">
 
 	<!-- #masthead -->
 

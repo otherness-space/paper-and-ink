@@ -91,6 +91,14 @@ function materialwp_widgets_init() {
 }
 add_action( 'widgets_init', 'materialwp_widgets_init' );
 
+$args = array(
+	'width'         => 1600,
+	'height'        => 450,
+	'default-image' => get_template_directory_uri() . '/images/material_cover.png',
+	'uploads'       => true,
+);
+add_theme_support( 'custom-header', $args );
+
 /**
  * Enqueue scripts and styles.
  */
